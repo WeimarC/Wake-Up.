@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.5em;}
+p{font-size: 1.25em;}
+
+/* header */
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: rgba(245, 243, 243, 0.671);
+}
+
+header #Logo{
+    margin: 0;
+    padding: 25px 30px;
+    color: rgb(245, 37, 37);
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+header span{
+    color: rgb(55, 55, 201);
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: white;
+}
+
+/* hero */
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+}
